@@ -3,4 +3,4 @@ SELECT m.title, r.rating
        JOIN ratings AS r
        ON m.id = r.movie_id
  WHERE m.year = 2010
- ORDER BY r.rating DESC LIMIT 10;
+ ORDER BY r.rating DESC, m.title;
