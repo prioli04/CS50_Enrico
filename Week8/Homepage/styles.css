@@ -1,0 +1,32 @@
+:root {
+    --nav-height: 60px;
+    --about-img-width: 300px;
+    --arco-poli-width: 300px;
+}
+
+#logo {
+    height: var(--nav-height);
+}
+
+.carousel-poli-size {
+    width: 600px;
+    height: 350px;
+}
+
+.custom-link.nav-link {
+    color: var(--bs-secondary);
+}
+
+.card-about-width {
+    width: var(--about-img-width)
+}
+
+.card-poli-width {
+    width: var(--arco-poli-width);
+}
+
+.kf-logo {
+    width:100px !important;
+    height:100% !important;
+    border-radius: 25%;
+}
