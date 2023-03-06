@@ -1,0 +1,6 @@
+{% extends "layout.html" %} {% block row %} {% for row in birthdays_q %}
+<tr>
+  <td>{{ row[0] }}</td>
+  <td>{{ row[1] }}/{{ row[2] }}</td>
+</tr>
+{% endfor %} {% endblock %}
